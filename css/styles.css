@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+}
+
+.nav-link:hover {
+  color: #2C323E;
+}
+
+.container-fluid {
+  padding: 3% 15%;}
+
+p {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 300;
+  font-size: 112.5%;
+  margin-top: 10px;
+  color: #545454;
+}
+
+span {
+  color: #d8d8d8;
+  padding-bottom: 10px;
+}
+.name{
+  color: #004445;
+  padding-top: 0;
+}
+.service-2{
+  background-color: #f2f2f2;
+  padding: 200px 0;
+
+}
+.p-container{
+  color: #a5a5a5;
+}
+
+h1 {
+  font-family: 'Rajdhani', cursive;
+  font-weight: bold;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #7fa998;
+}
+
+h3 {
+  font-family: 'Rajdhani', sans-serif;
+  color: #7fa998 ;
+  font-size: 1.57rem;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.top-container {
+  background-color: white;;
+  color: #FFF;
+}
+
+
+h2 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  margin: 32.2px 0;
+  color: white;
+  line-height: 2;
+}
+
+
+h4{
+  color: #282530;
+  font-family: "Poppins", sans-serif;
+}
+.skills {
+  background-color: white;
+  padding: 100px 0
+}
+
+a {
+  text-decoration: none;
+  color: #545454;
+}
+
+a:hover {
+  color: #df8543;
+}
+
+.description {
+  width: 40%;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.dev-img {
+  height: 25%;
+  width: 26%;
+  float: left;
+  margin-right: 30px;
+}
+
+.photo-img {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  padding: 25px 0 200px 0;
+  background-color: white;
+}
+
+.profile-img {
+  height: 180px;
+  width: 180px;
+}
+
+
+.bottom-container {
+  background-color: #2C323E;
+  padding: 80px 0 20px;
+}
+
+.footer-link {
+  color: white;
+  font-family: 'Changa', sans-serif;
+  font-weight: 300;
+  margin: 10px 20px;
+}
+
+.copyright {
+  padding: 20px 0;
+  color: #898989;
+  font-size: 0.8rem;
+}
+
+.contact-me {
+  padding: 200px 0;
+  background-color: white;
+}
+.getintouch {
+  font-family: 'Changa', sans-serif;
+  font-weight: 300;
+  color: #2C323E;
+  margin-top: 0;
+}
+
+.hire {
+  color: #939393;
+  margin: 0;
+}
+
+.btn {
+  margin-top: 50px;
+}
+
+.btn-outline-dark {
+  color: #2C323E;
+}
+
+.btn:hover{
+  background-color: #dddddd;
+  color: #2C323E;
+}
+
+i {
+  padding-right: 11px;
+}
