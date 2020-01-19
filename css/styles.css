@@ -1,21 +1,62 @@
 body {
-  /*background-color: #7fa998;*/
   margin: 0;
   text-align: center;
 }
 
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+}
+
+.nav-link:hover {
+  color: #2C323E;
+}
+
+.container-fluid {
+  padding: 3% 15%;}
+
 p {
-  font-family: 'Exo 2', sans-serif;
-  font-weight: 100;
-  font-size: 112.5%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
   margin-top: 10px;
-  color: #545454
-    /*#0f4c75*/
-  ;
+  color: #545454;
+}
+
+span {
+  color: #d8d8d8;
+  padding-bottom: 10px;
+}
+.name{
+  color: #004445;
+  padding-top: 0;
+}
+.service-2{
+  background-color: #f2f2f2;
+  padding: 200px 0;
+
+}
+.p-container{
+  color: #a5a5a5;
+  font-size: 1.7rem;
 }
 
 h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Rajdhani', cursive;
   font-weight: bold;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
@@ -24,29 +65,19 @@ h1 {
 
 h3 {
   font-family: 'Rajdhani', sans-serif;
-  color: #1f6650;
+  color: #7fa998 ;
   font-size: 1.57rem;
   font-weight: bolder;
   margin-bottom: 5px;
 }
 
 .top-container {
-  background-color: #e1edf9;
-  position: relative;
-  padding-top: 100px;
-  margin: 0;
+  background-color: white;;
+  color: #FFF;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
+.fa-4x {
+  padding-top: 30px;
 }
 
 h2 {
@@ -54,18 +85,24 @@ h2 {
   font-weight: lighter;
   font-size: 2.5rem;
   margin: 32.2px 0;
-  color: #35477d;
+  color: white;
   line-height: 2;
 }
 
-/*.p-container {
-  position: relative;
-  margin: 0 auto;
-  width:380px;
-}*/
+
+h4{
+  color: #282530;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+}
+.skills {
+  background-color: white;
+  padding: 100px 0
+}
+
 a {
   text-decoration: none;
-  color: #745c97;
+  color: #545454;
 }
 
 a:hover {
@@ -100,65 +137,64 @@ a:hover {
   margin-left: 30px;
 }
 
+.profile {
+  padding: 25px 0 200px 0;
+  background-color: white;
+}
+
 .profile-img {
   height: 180px;
   width: 180px;
-  margin-top: 100px;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 6px;
-  border-color: #EAF6F6;
-  margin: 100px auto;
-  width: 5%;
-}
 
 .bottom-container {
-  background-color: #d4e8fc;
-  margin-bottom: 0;
-  margin-top: 50px;
-  padding: 50px 0 20px;
+  background-color: #2C323E;
+  padding: 80px 0 20px;
 }
 
 .footer-link {
-  color: #545454;
+  color: white;
   font-family: 'Changa', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   margin: 10px 20px;
 }
 
 .copyright {
   padding: 20px 0;
-  color: #545454;
-  font-size: 0.75rem;
+  color: #898989;
+  font-size: 0.8rem;
 }
 
+.contact-me {
+  padding: 200px 0;
+  background-color: white;
+}
 .getintouch {
   font-family: 'Changa', sans-serif;
-  font-weight: bolder;
-  color: #35477d;
+  font-weight: 300;
+  color: #2C323E;
+  margin-top: 0;
 }
 
 .hire {
-  color: #545454
+  color: #939393;
+  margin: 0;
 }
 
-.myButton {
-  background-color: #768d87;
-  border-radius: 5px;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 13px 23px;
-  text-decoration: none;
+.btn {
+  margin-top: 50px;
 }
 
-.myButton:active {
-  position: relative;
-  top: 1px;
+.btn-outline-dark {
+  color: #2C323E;
+}
+
+.btn:hover{
+  background-color: #dddddd;
+  color: #2C323E;
+}
+
+i {
+  padding-right: 11px;
 }
