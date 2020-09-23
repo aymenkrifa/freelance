@@ -3,6 +3,70 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-family: 'Rajdhani', cursive;
+  font-weight: bold;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #7fa998;
+}
+
+h2 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  margin: 32.2px 0;
+  color: white;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Rajdhani', sans-serif;
+  color: #7fa998 ;
+  font-size: 1.57rem;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+h4{
+  color: #282530;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-top: 10px;
+  color: #545454;
+}
+
+span {
+  color: #d8d8d8;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #545454;
+}
+
+a:hover {
+  color: #df8543;
+  text-decoration: none;
+}
+
+i {
+  padding-right: 11px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR  */
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -27,48 +91,22 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;}
-
-p {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-weight: 300;
-  font-size: 1.7rem;
-  margin-top: 10px;
-  color: #545454;
+  padding: 3% 15%;
 }
 
-span {
-  color: #d8d8d8;
-  padding-bottom: 10px;
-}
 .name{
   color: #004445;
   padding-top: 0;
 }
-.service-2{
-  background-color: #f2f2f2;
-  padding: 200px 0;
 
+.service-2{
+  background-color: #F9F9F9;
+  padding: 100px 0;
 }
+
 .p-container{
   color: #a5a5a5;
   font-size: 1.7rem;
-}
-
-h1 {
-  font-family: 'Rajdhani', cursive;
-  font-weight: bold;
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
-  color: #7fa998;
-}
-
-h3 {
-  font-family: 'Rajdhani', sans-serif;
-  color: #7fa998 ;
-  font-size: 1.57rem;
-  font-weight: bolder;
-  margin-bottom: 5px;
 }
 
 .top-container {
@@ -80,33 +118,9 @@ h3 {
   padding-top: 30px;
 }
 
-h2 {
-  font-family: 'Exo 2', sans-serif;
-  font-weight: lighter;
-  font-size: 2.5rem;
-  margin: 32.2px 0;
-  color: white;
-  line-height: 2;
-}
-
-
-h4{
-  color: #282530;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.8rem;
-}
 .skills {
   background-color: white;
   padding: 100px 0
-}
-
-a {
-  text-decoration: none;
-  color: #545454;
-}
-
-a:hover {
-  color: #df8543;
 }
 
 .description {
@@ -138,15 +152,52 @@ a:hover {
 }
 
 .profile {
-  padding: 25px 0 200px 0;
+  padding: 25px 0 120px 0;
   background-color: white;
 }
 
 .profile-img {
-  height: 180px;
-  width: 180px;
+  height: 300px;
+  width: 300px;
 }
 
+
+/* CONTACT */
+
+.getintouch {
+  font-family: 'Changa', sans-serif;
+  font-weight: 300;
+  color: #2C323E;
+  margin-top: 0;
+}
+
+.hire {
+  color: #939393;
+  margin: 0;
+}
+
+/* BUTTONS */
+
+.contact-me {
+  padding: 150px 0;
+  background-color: white;
+}
+
+.btn {
+  margin-top: 50px;
+}
+
+.btn-outline-dark {
+  color: #2C323E;
+}
+
+.btn:hover{
+  background-color: #dddddd;
+  color: #2C323E;
+}
+
+
+/* BOTTOM LINKS */
 
 .bottom-container {
   background-color: #2C323E;
@@ -164,37 +215,4 @@ a:hover {
   padding: 20px 0;
   color: #898989;
   font-size: 0.8rem;
-}
-
-.contact-me {
-  padding: 200px 0;
-  background-color: white;
-}
-.getintouch {
-  font-family: 'Changa', sans-serif;
-  font-weight: 300;
-  color: #2C323E;
-  margin-top: 0;
-}
-
-.hire {
-  color: #939393;
-  margin: 0;
-}
-
-.btn {
-  margin-top: 50px;
-}
-
-.btn-outline-dark {
-  color: #2C323E;
-}
-
-.btn:hover{
-  background-color: #dddddd;
-  color: #2C323E;
-}
-
-i {
-  padding-right: 11px;
 }
