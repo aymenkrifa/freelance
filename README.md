@@ -1,4 +1,4 @@
-# Portfolio
+# Personal portfolio
 
 I tried to make a portfolio by my own for future career purposes, in Freelance maybe.
 
